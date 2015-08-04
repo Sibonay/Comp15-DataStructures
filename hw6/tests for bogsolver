@@ -1,0 +1,100 @@
+
+// TEST FUNCTIONS
+
+// PRINT BOARD READ IN
+	/*for (int r = 0; r < board_rows; r++) {
+		cout << endl;
+		for (int j = 0; j < board_cols; j++) {
+			cout << board[r][j].c;
+			cout << board[r][j].row;
+			cout << board[r][j].col << " ";
+		}
+	}*/
+
+
+// FIND_ADJ TEST
+/*BogWord adj = find_adj(board[1][1]);
+for (int i = 0; i < (int)adj.size(); i++) {
+	cout << adj[i].c <<
+		adj[i].row <<
+		adj[i].col << endl;
+}*/
+
+
+// WORD_TO_STRING TEST
+/*BogLett h;
+h.c = 'h';
+h.row = 0;
+h.col = 0;
+BogLett e = { 'e', 0, 1 };
+BogLett y = { 'y', 0, 2 };
+
+BogWord word;
+word.push_back(h);
+word.push_back(e);
+word.push_back(y);
+cout << "word is " << word.at(0).c << word.at(1).c << word.at(2).c << endl;
+
+string string_word = word_to_string(word);
+cout << string_word;*/
+
+
+// ALREADY_CHECKED TEST
+/*BogLett h = {'h', 0, 0};
+BogLett e = { 'e', 0, 1 };
+BogLett y = { 'y', 0, 2 };
+
+BogWord word;
+word.push_back(h);
+word.push_back(e);
+word.push_back(y);
+
+BogLett h2 = {'h', 0, 0};
+BogLett z = {'z', 1, 1};
+bool have_checked1 = already_checked(word, h2);
+bool have_checked2 = already_checked(word, z);
+
+if (have_checked1 == true) cout << "true" << endl;
+if (have_checked2 == false) cout << "false" << endl;*/
+
+
+// ALREADY_FOUND TEST
+/*BogLett h = {'h', 0, 0};
+BogLett e = { 'e', 0, 1 };
+BogLett y = { 'y', 0, 2 };
+
+BogWord word;
+word.push_back(h);
+word.push_back(e);
+word.push_back(y);
+
+BogWord word2;
+word2.push_back(h);
+word2.push_back(e);
+word2.push_back(y);
+
+BogWord word3;
+word3.push_back(h);
+word3.push_back(e);
+
+wordlist.push_back(word);
+bool word2found = already_found(word2);
+bool word3found = already_found(word3);
+
+if (word2found) cout << "found word 2" << endl;
+else cout << "didn't find word 2" << endl;
+if (word3found) cout << "found word 3" << endl;
+else cout << "didn't find word 3" << endl;*/
+
+
+// PRINT_SINGLE_WORD TEST
+/*BogLett h = {'h', 0, 0};
+BogLett e = { 'e', 0, 1 };
+BogLett y = { 'y', 0, 2 };
+
+BogWord word;
+word.push_back(h);
+word.push_back(e);
+word.push_back(y);
+
+print_single_word(word);*/

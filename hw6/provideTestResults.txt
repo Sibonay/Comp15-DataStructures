@@ -1,0 +1,1417 @@
+Testing solver ... 
+OK duplicates suppressed
+OK skips words with 1 or 2 letters
+-- does program print end of data marker?
+NO does not print < > at end of output
+-- Does program check validity of board dimensions?
+NO 44 crashed -- dumped core
+NO 45 crashed -- dumped core
+OK program converts lower case to upper case
+-- Does program find all the words?
+OK 01.2x2.1 all words correct
+OK 02.2x2.2 all words correct
+OK 03.2x2.3 all words correct
+OK 04.2x2.4 all words correct
+OK 05.2x3.1 all words correct
+OK 06.3x3.1 all words correct
+OK 07.3x3 all words correct
+OK 08.3x3 all words correct
+NO 12.lcase.1 crashed -- core dumped
+OK 13.ucase.1 all words correct
+OK 14.8x8 all words correct
+NO 16.qu not all words correct
+   +----- details -----------
+   |Found 5 correct words, but
+   |Missing 2 words in program output:
+   |OQU
+   |QUA
+OK 20.reg4x4 all words correct
+OK 21.reg4x4 all words correct
+OK 22.reg4x4 all words correct
+OK 23.reg4x4 all words correct
+OK 30.reg5x5 all words correct
+OK 31.reg5x5 all words correct
+OK 32.reg5x5 all words correct
+OK 33.reg5x5 all words correct
+OK 34.reg5x5 all words correct
+OK HBF is correct
+-- Does the program report the correct char locations?
+OK 01.2x2.1 all paths correct
+OK 02.2x2.2 all paths correct
+OK 03.2x2.3 all paths correct
+OK 04.2x2.4 all paths correct
+OK 05.2x3.1 all paths correct
+OK 06.3x3.1 all paths correct
+OK 07.3x3 all paths correct
+OK 08.3x3 all paths correct
+NO 12.lcase.1 crashed -- core dumped
+OK 13.ucase.1 all paths correct
+OK 20.reg4x4 all paths correct
+OK 21.reg4x4 all paths correct
+OK 22.reg4x4 all paths correct
+OK 23.reg4x4 all paths correct
+OK 30.reg5x5 all paths correct
+OK 31.reg5x5 all paths correct
+OK 32.reg5x5 all paths correct
+OK 33.reg5x5 all paths correct
+OK 34.reg5x5 all paths correct
+===== TESTING OTHER SOLVER FUNCTIONS =====
+NO getWords() not ok for 20
+   +----- details -----------
+   |Found 1 correct words, but
+   |Missing 133 words in program output:
+   |EGIS
+   |EISH
+   |EOSINS
+   |ETH
+   |ETHOS
+   |ETHS
+   |GEIST
+   |GEIT
+   |GEITS
+   |GEY
+   |GIE
+   |GIN
+   |GINS
+   |GIP
+   |GIPS
+   |GIS
+   |GIST
+   |GIT
+   |GITE
+   |GITS
+   |HET
+   |HETH
+   |HETHS
+   |HETS
+   |HOE
+   |HOH
+   |HOHS
+   |HOS
+   |HOSS
+   |HOST
+   |HOSTIE
+   |HOT
+   |HOTE
+   |HOTS
+   |INS
+   |ISH
+   |ISO
+   |ITS
+   |JIG
+   |JIN
+   |JINS
+   |NIE
+   |NIGH
+   |NIP
+   |NIPS
+   |NIS
+   |NISH
+   |NIT
+   |NITE
+   |NITS
+   |OHS
+   |PEG
+   |PEGH
+   |PEIN
+   |PEINS
+   |PHO
+   |PHOH
+   |PHOHS
+   |PHOS
+   |PHOT
+   |PHOTS
+   |PHPHT
+   |PHT
+   |PIE
+   |PIG
+   |PIN
+   |PINS
+   |PIS
+   |PISH
+   |PISO
+   |PISS
+   |PISTE
+   |PIT
+   |PITH
+   |PITHOS
+   |PITHS
+   |PITS
+   |PSI
+   |PST
+   |SHOE
+   |SHOT
+   |SHOTE
+   |SHOTS
+   |SIGH
+   |SIN
+   |SINH
+   |SINHS
+   |SINS
+   |SIP
+   |SIPE
+   |SIT
+   |SITE
+   |SITH
+   |SITHE
+   |SNIG
+   |SNIP
+   |SNIPE
+   |SNIPS
+   |SNIT
+   |SNITS
+   |SOH
+   |SOHS
+   |SOT
+   |SOTH
+   |SOTHS
+   |SPIE
+   |SPIN
+   |SPINS
+   |SPIT
+   |SPITE
+   |STIE
+   |STIPE
+   |THE
+   |THO
+   |TIE
+   |TIG
+   |TIGE
+   |TIN
+   |TINS
+   |TIP
+   |TIPS
+   |TIS
+   |TOE
+   |TOSH
+   |TOSS
+   |YEP
+   |YEPS
+   |YIN
+   |YINS
+   |YIP
+   |YIPE
+   |YIPS
+   |YITE
+NO getWords() not ok for 13
+   +----- details -----------
+   |Found 1 correct words, but
+   |Missing 2 words in program output:
+   |DEF
+   |GHI
+OK getWords() returns a copy
+~~ testing interface for set 20 ~~~
+NO numWords() not ok for set 20 says 1, should be 134
+NO numWords(5) fails for set 20 says 1, should be 22
+NO numWords(3) fails for set 20 says 0, should be 49
+NO listWords() fails for set 20
+   +----- details -----------
+   |Extra words in program output:
+   |<>
+   |Found 1 correct words, but
+   |Missing 133 words in program output:
+   |EGIS
+   |EISH
+   |EOSINS
+   |ETH
+   |ETHOS
+   |ETHS
+   |GEIST
+   |GEIT
+   |GEITS
+   |GEY
+   |GIE
+   |GIN
+   |GINS
+   |GIP
+   |GIPS
+   |GIS
+   |GIST
+   |GIT
+   |GITE
+   |GITS
+   |HET
+   |HETH
+   |HETHS
+   |HETS
+   |HOE
+   |HOH
+   |HOHS
+   |HOS
+   |HOSS
+   |HOST
+   |HOSTIE
+   |HOT
+   |HOTE
+   |HOTS
+   |INS
+   |ISH
+   |ISO
+   |ITS
+   |JIG
+   |JIN
+   |JINS
+   |NIE
+   |NIGH
+   |NIP
+   |NIPS
+   |NIS
+   |NISH
+   |NIT
+   |NITE
+   |NITS
+   |OHS
+   |PEG
+   |PEGH
+   |PEIN
+   |PEINS
+   |PHO
+   |PHOH
+   |PHOHS
+   |PHOS
+   |PHOT
+   |PHOTS
+   |PHPHT
+   |PHT
+   |PIE
+   |PIG
+   |PIN
+   |PINS
+   |PIS
+   |PISH
+   |PISO
+   |PISS
+   |PISTE
+   |PIT
+   |PITH
+   |PITHOS
+   |PITHS
+   |PITS
+   |PSI
+   |PST
+   |SHOE
+   |SHOT
+   |SHOTE
+   |SHOTS
+   |SIGH
+   |SIN
+   |SINH
+   |SINHS
+   |SINS
+   |SIP
+   |SIPE
+   |SIT
+   |SITE
+   |SITH
+   |SITHE
+   |SNIG
+   |SNIP
+   |SNIPE
+   |SNIPS
+   |SNIT
+   |SNITS
+   |SOH
+   |SOHS
+   |SOT
+   |SOTH
+   |SOTHS
+   |SPIE
+   |SPIN
+   |SPINS
+   |SPIT
+   |SPITE
+   |STIE
+   |STIPE
+   |THE
+   |THO
+   |TIE
+   |TIG
+   |TIGE
+   |TIN
+   |TINS
+   |TIP
+   |TIPS
+   |TIS
+   |TOE
+   |TOSH
+   |TOSS
+   |YEP
+   |YEPS
+   |YIN
+   |YINS
+   |YIP
+   |YIPE
+   |YIPS
+   |YITE
+NO listWords(5) fails for set 20
+   +----- details -----------
+   |Extra words in program output:
+   |<>
+   |Found 1 correct words, but
+   |Missing 21 words in program output:
+   |ETHOS
+   |GEIST
+   |GEITS
+   |HETHS
+   |PEINS
+   |PHOHS
+   |PHOTS
+   |PHPHT
+   |PISTE
+   |PITHS
+   |SHOTE
+   |SHOTS
+   |SINHS
+   |SITHE
+   |SNIPE
+   |SNIPS
+   |SNITS
+   |SOTHS
+   |SPINS
+   |SPITE
+   |STIPE
+NO listWords(3) fails for set 20
+   +----- details -----------
+   |Extra words in program output:
+   |<>
+   |Found 0 correct words, but
+   |Missing 49 words in program output:
+   |ETH
+   |GEY
+   |GIE
+   |GIN
+   |GIP
+   |GIS
+   |GIT
+   |HET
+   |HOE
+   |HOH
+   |HOS
+   |HOT
+   |INS
+   |ISH
+   |ISO
+   |ITS
+   |JIG
+   |JIN
+   |NIE
+   |NIP
+   |NIS
+   |NIT
+   |OHS
+   |PEG
+   |PHO
+   |PHT
+   |PIE
+   |PIG
+   |PIN
+   |PIS
+   |PIT
+   |PSI
+   |PST
+   |SIN
+   |SIP
+   |SIT
+   |SOH
+   |SOT
+   |THE
+   |THO
+   |TIE
+   |TIG
+   |TIN
+   |TIP
+   |TIS
+   |TOE
+   |YEP
+   |YIN
+   |YIP
+~~ testing interface for set 13 ~~~
+NO numWords() not ok for set 13 says 1, should be 3
+OK numWords(5) works for set 13
+NO numWords(3) fails for set 13 says 1, should be 3
+NO listWords() fails for set 13
+   +----- details -----------
+   |Extra words in program output:
+   |<>
+   |Found 1 correct words, but
+   |Missing 2 words in program output:
+   |DEF
+   |GHI
+NO listWords(5) fails for set 13
+   +----- details -----------
+   |Extra words in program output:
+   |<>
+NO listWords(3) fails for set 13
+   +----- details -----------
+   |Extra words in program output:
+   |<>
+   |Found 1 correct words, but
+   |Missing 2 words in program output:
+   |DEF
+   |GHI
+
+Testing checker ... 
+OK cin.eof() bug not detected
+OK test=20: all words correct
+NO test=dupes: not all words correct
+   +----- details -----------
+   |Differences between output and correct output:
+   |2,3c2,3
+   |< OK ABC
+   |< OK ABC
+   |---
+   |> NO ABC
+   |> NO ABC
+   |7,8c7,8
+   |< OK FGH
+   |< OK FGH
+   |---
+   |> NO FGH
+   |> NO FGH
+   |11c11
+   |< OK MNOP
+   |---
+   |> NO MNOP
+OK test=long: all words correct
+OK test=notboard: all words correct
+OK test=notdict: all words correct
+OK test=nowhere: all words correct
+NO test=short: not all words correct
+   +----- details -----------
+   |Differences between output and correct output:
+   |3c3
+   |< OK CG
+   |---
+   |> NO CG
+   |8c8
+   |< OK N
+   |---
+   |> NO N
+OK test=simple: all words correct
+
+Testing scorer ... 
+OK cin.eof() bug not detected
+NO test=20: not all scores correct
+   +----- details -----------
+   |Differences between output and correct output:
+   |4,5c4,5
+   |< 1 OK EOSIN
+   |< 1 OK EOSINS
+   |---
+   |> 2 OK EOSIN
+   |> 3 OK EOSINS
+   |7c7
+   |< 1 OK ETHOS
+   |---
+   |> 2 OK ETHOS
+   |9c9
+   |< 1 OK GEIST
+   |---
+   |> 2 OK GEIST
+   |11c11
+   |< 1 OK GEITS
+   |---
+   |> 2 OK GEITS
+   |26c26
+   |< 1 OK HETHS
+   |---
+   |> 2 OK HETHS
+   |34c34
+   |< 1 OK HOSTIE
+   |---
+   |> 3 OK HOSTIE
+   |58c58
+   |< 1 OK PEINS
+   |---
+   |> 2 OK PEINS
+   |61c61
+   |< 1 OK PHOHS
+   |---
+   |> 2 OK PHOHS
+   |64,65c64,65
+   |< 1 OK PHOTS
+   |< 1 OK PHPHT
+   |---
+   |> 2 OK PHOTS
+   |> 2 OK PHPHT
+   |75c75
+   |< 1 OK PISTE
+   |---
+   |> 2 OK PISTE
+   |78,79c78,79
+   |< 1 OK PITHOS
+   |< 1 OK PITHS
+   |---
+   |> 3 OK PITHOS
+   |> 2 OK PITHS
+   |86,87c86,87
+   |< 1 OK SHOTE
+   |< 1 OK SHOTS
+   |---
+   |> 2 OK SHOTE
+   |> 2 OK SHOTS
+   |91c91
+   |< 1 OK SINHS
+   |---
+   |> 2 OK SINHS
+   |98c98
+   |< 1 OK SITHE
+   |---
+   |> 2 OK SITHE
+   |101,102c101,102
+   |< 1 OK SNIPE
+   |< 1 OK SNIPS
+   |---
+   |> 2 OK SNIPE
+   |> 2 OK SNIPS
+   |104c104
+   |< 1 OK SNITS
+   |---
+   |> 2 OK SNITS
+   |109c109
+   |< 1 OK SOTHS
+   |---
+   |> 2 OK SOTHS
+   |112c112
+   |< 1 OK SPINS
+   |---
+   |> 2 OK SPINS
+   |114c114
+   |< 1 OK SPITE
+   |---
+   |> 2 OK SPITE
+   |116c116
+   |< 1 OK STIPE
+   |---
+   |> 2 OK STIPE
+   |138c138
+   |< 137 words 134 points
+   |---
+   |> 134 words 162 points
+NO test=dupes: not all scores correct
+   +----- details -----------
+   |Differences between output and correct output:
+   |12c12
+   |< 11 words 6 points
+   |---
+   |> 6 words 6 points
+NO test=long: not all scores correct
+   +----- details -----------
+   |Differences between output and correct output:
+   |5,26c5,26
+   |< 1 OK ABCDE
+   |< 1 OK ABCDEF
+   |< 1 OK ABCDEFG
+   |< 1 OK ABCDEFGH
+   |< 1 OK ABCDEFGHI
+   |< 1 OK ABCDEFGHIJ
+   |< 1 OK ABCDEFGHIJK
+   |< 1 OK ABCDEFGHIJKL
+   |< 1 OK ABCDEFGHIJKLM
+   |< 1 OK ABCDEFGHIJKLMN
+   |< 1 OK ABCDEFGHIJKLMNO
+   |< 1 OK ABCDEFGHIJKLMNOP
+   |< 1 OK ABCDEFGHIJKLMNOPR
+   |< 1 OK ABCDEFGHIJKLMNOPRS
+   |< 1 OK ABCDEFGHIJKLMNOPRST
+   |< 1 OK ABCDEFGHIJKLMNOPRSTU
+   |< 1 OK ABCDEFGHIJKLMNOPRSTUV
+   |< 1 OK ABCDEFGHIJKLMNOPRSTUVW
+   |< 1 OK ABCDEFGHIJKLMNOPRSTUVWX
+   |< 1 OK ABCDEFGHIJKLMNOPRSTUVWXY
+   |< 1 OK ABCDEFGHIJKLMNOPRSTUVWXYZ
+   |< 25 words 23 points
+   |---
+   |> 2 OK ABCDE
+   |> 3 OK ABCDEF
+   |> 5 OK ABCDEFG
+   |> 11 OK ABCDEFGH
+   |> 11 OK ABCDEFGHI
+   |> 11 OK ABCDEFGHIJ
+   |> 11 OK ABCDEFGHIJK
+   |> 11 OK ABCDEFGHIJKL
+   |> 11 OK ABCDEFGHIJKLM
+   |> 11 OK ABCDEFGHIJKLMN
+   |> 11 OK ABCDEFGHIJKLMNO
+   |> 11 OK ABCDEFGHIJKLMNOP
+   |> 11 OK ABCDEFGHIJKLMNOPR
+   |> 11 OK ABCDEFGHIJKLMNOPRS
+   |> 11 OK ABCDEFGHIJKLMNOPRST
+   |> 11 OK ABCDEFGHIJKLMNOPRSTU
+   |> 11 OK ABCDEFGHIJKLMNOPRSTUV
+   |> 11 OK ABCDEFGHIJKLMNOPRSTUVW
+   |> 11 OK ABCDEFGHIJKLMNOPRSTUVWX
+   |> 11 OK ABCDEFGHIJKLMNOPRSTUVWXY
+   |> 11 OK ABCDEFGHIJKLMNOPRSTUVWXYZ
+   |> 23 words 210 points
+NO test=notboard: not all scores correct
+   +----- details -----------
+   |Differences between output and correct output:
+   |4c4
+   |< 3 words 0 points
+   |---
+   |> 0 words 0 points
+NO test=notdict: not all scores correct
+   +----- details -----------
+   |Differences between output and correct output:
+   |4c4
+   |< 3 words 0 points
+   |---
+   |> 0 words 0 points
+NO test=nowhere: not all scores correct
+   +----- details -----------
+   |Differences between output and correct output:
+   |4c4
+   |< 3 words 0 points
+   |---
+   |> 0 words 0 points
+NO test=short: not all scores correct
+   +----- details -----------
+   |Differences between output and correct output:
+   |9c9
+   |< 8 words 6 points
+   |---
+   |> 6 words 6 points
+OK test=simple: all scores correct
+
+checking design ... 
+
+//@@
+//@@ report of running many sets of test data
+//@@
+No compile errors!
+OK No compiler warnings!
+===== TESTING SOLVER ======================
+OK duplicates suppressed
+OK skips words with 1 or 2 letters
+-- does program print end of data marker?
+NO does not print < > at end of output
+-- Does program check validity of board dimensions?
+NO 44 crashed -- dumped core
+NO 45 crashed -- dumped core
+OK program converts lower case to upper case
+-- Does program find all the words?
+OK 01.2x2.1 all words correct
+OK 02.2x2.2 all words correct
+OK 03.2x2.3 all words correct
+OK 04.2x2.4 all words correct
+OK 05.2x3.1 all words correct
+OK 06.3x3.1 all words correct
+OK 07.3x3 all words correct
+OK 08.3x3 all words correct
+NO 12.lcase.1 crashed -- core dumped
+OK 13.ucase.1 all words correct
+OK 14.8x8 all words correct
+NO 16.qu not all words correct
+   +----- details -----------
+   |Found 5 correct words, but
+   |Missing 2 words in program output:
+   |OQU
+   |QUA
+OK 20.reg4x4 all words correct
+OK 21.reg4x4 all words correct
+OK 22.reg4x4 all words correct
+OK 23.reg4x4 all words correct
+OK 30.reg5x5 all words correct
+OK 31.reg5x5 all words correct
+OK 32.reg5x5 all words correct
+OK 33.reg5x5 all words correct
+OK 34.reg5x5 all words correct
+OK HBF is correct
+-- Does the program report the correct char locations?
+OK 01.2x2.1 all paths correct
+OK 02.2x2.2 all paths correct
+OK 03.2x2.3 all paths correct
+OK 04.2x2.4 all paths correct
+OK 05.2x3.1 all paths correct
+OK 06.3x3.1 all paths correct
+OK 07.3x3 all paths correct
+OK 08.3x3 all paths correct
+NO 12.lcase.1 crashed -- core dumped
+OK 13.ucase.1 all paths correct
+OK 20.reg4x4 all paths correct
+OK 21.reg4x4 all paths correct
+OK 22.reg4x4 all paths correct
+OK 23.reg4x4 all paths correct
+OK 30.reg5x5 all paths correct
+OK 31.reg5x5 all paths correct
+OK 32.reg5x5 all paths correct
+OK 33.reg5x5 all paths correct
+OK 34.reg5x5 all paths correct
+===== TESTING OTHER SOLVER FUNCTIONS =====
+NO getWords() not ok for 20
+   +----- details -----------
+   |Found 1 correct words, but
+   |Missing 133 words in program output:
+   |EGIS
+   |EISH
+   |EOSINS
+   |ETH
+   |ETHOS
+   |ETHS
+   |GEIST
+   |GEIT
+   |GEITS
+   |GEY
+   |GIE
+   |GIN
+   |GINS
+   |GIP
+   |GIPS
+   |GIS
+   |GIST
+   |GIT
+   |GITE
+   |GITS
+   |HET
+   |HETH
+   |HETHS
+   |HETS
+   |HOE
+   |HOH
+   |HOHS
+   |HOS
+   |HOSS
+   |HOST
+   |HOSTIE
+   |HOT
+   |HOTE
+   |HOTS
+   |INS
+   |ISH
+   |ISO
+   |ITS
+   |JIG
+   |JIN
+   |JINS
+   |NIE
+   |NIGH
+   |NIP
+   |NIPS
+   |NIS
+   |NISH
+   |NIT
+   |NITE
+   |NITS
+   |OHS
+   |PEG
+   |PEGH
+   |PEIN
+   |PEINS
+   |PHO
+   |PHOH
+   |PHOHS
+   |PHOS
+   |PHOT
+   |PHOTS
+   |PHPHT
+   |PHT
+   |PIE
+   |PIG
+   |PIN
+   |PINS
+   |PIS
+   |PISH
+   |PISO
+   |PISS
+   |PISTE
+   |PIT
+   |PITH
+   |PITHOS
+   |PITHS
+   |PITS
+   |PSI
+   |PST
+   |SHOE
+   |SHOT
+   |SHOTE
+   |SHOTS
+   |SIGH
+   |SIN
+   |SINH
+   |SINHS
+   |SINS
+   |SIP
+   |SIPE
+   |SIT
+   |SITE
+   |SITH
+   |SITHE
+   |SNIG
+   |SNIP
+   |SNIPE
+   |SNIPS
+   |SNIT
+   |SNITS
+   |SOH
+   |SOHS
+   |SOT
+   |SOTH
+   |SOTHS
+   |SPIE
+   |SPIN
+   |SPINS
+   |SPIT
+   |SPITE
+   |STIE
+   |STIPE
+   |THE
+   |THO
+   |TIE
+   |TIG
+   |TIGE
+   |TIN
+   |TINS
+   |TIP
+   |TIPS
+   |TIS
+   |TOE
+   |TOSH
+   |TOSS
+   |YEP
+   |YEPS
+   |YIN
+   |YINS
+   |YIP
+   |YIPE
+   |YIPS
+   |YITE
+NO getWords() not ok for 13
+   +----- details -----------
+   |Found 1 correct words, but
+   |Missing 2 words in program output:
+   |DEF
+   |GHI
+OK getWords() returns a copy
+~~ testing interface for set 20 ~~~
+NO numWords() not ok for set 20 says 1, should be 134
+NO numWords(5) fails for set 20 says 1, should be 22
+NO numWords(3) fails for set 20 says 0, should be 49
+NO listWords() fails for set 20
+   +----- details -----------
+   |Extra words in program output:
+   |<>
+   |Found 1 correct words, but
+   |Missing 133 words in program output:
+   |EGIS
+   |EISH
+   |EOSINS
+   |ETH
+   |ETHOS
+   |ETHS
+   |GEIST
+   |GEIT
+   |GEITS
+   |GEY
+   |GIE
+   |GIN
+   |GINS
+   |GIP
+   |GIPS
+   |GIS
+   |GIST
+   |GIT
+   |GITE
+   |GITS
+   |HET
+   |HETH
+   |HETHS
+   |HETS
+   |HOE
+   |HOH
+   |HOHS
+   |HOS
+   |HOSS
+   |HOST
+   |HOSTIE
+   |HOT
+   |HOTE
+   |HOTS
+   |INS
+   |ISH
+   |ISO
+   |ITS
+   |JIG
+   |JIN
+   |JINS
+   |NIE
+   |NIGH
+   |NIP
+   |NIPS
+   |NIS
+   |NISH
+   |NIT
+   |NITE
+   |NITS
+   |OHS
+   |PEG
+   |PEGH
+   |PEIN
+   |PEINS
+   |PHO
+   |PHOH
+   |PHOHS
+   |PHOS
+   |PHOT
+   |PHOTS
+   |PHPHT
+   |PHT
+   |PIE
+   |PIG
+   |PIN
+   |PINS
+   |PIS
+   |PISH
+   |PISO
+   |PISS
+   |PISTE
+   |PIT
+   |PITH
+   |PITHOS
+   |PITHS
+   |PITS
+   |PSI
+   |PST
+   |SHOE
+   |SHOT
+   |SHOTE
+   |SHOTS
+   |SIGH
+   |SIN
+   |SINH
+   |SINHS
+   |SINS
+   |SIP
+   |SIPE
+   |SIT
+   |SITE
+   |SITH
+   |SITHE
+   |SNIG
+   |SNIP
+   |SNIPE
+   |SNIPS
+   |SNIT
+   |SNITS
+   |SOH
+   |SOHS
+   |SOT
+   |SOTH
+   |SOTHS
+   |SPIE
+   |SPIN
+   |SPINS
+   |SPIT
+   |SPITE
+   |STIE
+   |STIPE
+   |THE
+   |THO
+   |TIE
+   |TIG
+   |TIGE
+   |TIN
+   |TINS
+   |TIP
+   |TIPS
+   |TIS
+   |TOE
+   |TOSH
+   |TOSS
+   |YEP
+   |YEPS
+   |YIN
+   |YINS
+   |YIP
+   |YIPE
+   |YIPS
+   |YITE
+NO listWords(5) fails for set 20
+   +----- details -----------
+   |Extra words in program output:
+   |<>
+   |Found 1 correct words, but
+   |Missing 21 words in program output:
+   |ETHOS
+   |GEIST
+   |GEITS
+   |HETHS
+   |PEINS
+   |PHOHS
+   |PHOTS
+   |PHPHT
+   |PISTE
+   |PITHS
+   |SHOTE
+   |SHOTS
+   |SINHS
+   |SITHE
+   |SNIPE
+   |SNIPS
+   |SNITS
+   |SOTHS
+   |SPINS
+   |SPITE
+   |STIPE
+NO listWords(3) fails for set 20
+   +----- details -----------
+   |Extra words in program output:
+   |<>
+   |Found 0 correct words, but
+   |Missing 49 words in program output:
+   |ETH
+   |GEY
+   |GIE
+   |GIN
+   |GIP
+   |GIS
+   |GIT
+   |HET
+   |HOE
+   |HOH
+   |HOS
+   |HOT
+   |INS
+   |ISH
+   |ISO
+   |ITS
+   |JIG
+   |JIN
+   |NIE
+   |NIP
+   |NIS
+   |NIT
+   |OHS
+   |PEG
+   |PHO
+   |PHT
+   |PIE
+   |PIG
+   |PIN
+   |PIS
+   |PIT
+   |PSI
+   |PST
+   |SIN
+   |SIP
+   |SIT
+   |SOH
+   |SOT
+   |THE
+   |THO
+   |TIE
+   |TIG
+   |TIN
+   |TIP
+   |TIS
+   |TOE
+   |YEP
+   |YIN
+   |YIP
+~~ testing interface for set 13 ~~~
+NO numWords() not ok for set 13 says 1, should be 3
+OK numWords(5) works for set 13
+NO numWords(3) fails for set 13 says 1, should be 3
+NO listWords() fails for set 13
+   +----- details -----------
+   |Extra words in program output:
+   |<>
+   |Found 1 correct words, but
+   |Missing 2 words in program output:
+   |DEF
+   |GHI
+NO listWords(5) fails for set 13
+   +----- details -----------
+   |Extra words in program output:
+   |<>
+NO listWords(3) fails for set 13
+   +----- details -----------
+   |Extra words in program output:
+   |<>
+   |Found 1 correct words, but
+   |Missing 2 words in program output:
+   |DEF
+   |GHI
+===== TESTING CHECKER ======================
+OK cin.eof() bug not detected
+OK test=20: all words correct
+NO test=dupes: not all words correct
+   +----- details -----------
+   |Differences between output and correct output:
+   |2,3c2,3
+   |< OK ABC
+   |< OK ABC
+   |---
+   |> NO ABC
+   |> NO ABC
+   |7,8c7,8
+   |< OK FGH
+   |< OK FGH
+   |---
+   |> NO FGH
+   |> NO FGH
+   |11c11
+   |< OK MNOP
+   |---
+   |> NO MNOP
+OK test=long: all words correct
+OK test=notboard: all words correct
+OK test=notdict: all words correct
+OK test=nowhere: all words correct
+NO test=short: not all words correct
+   +----- details -----------
+   |Differences between output and correct output:
+   |3c3
+   |< OK CG
+   |---
+   |> NO CG
+   |8c8
+   |< OK N
+   |---
+   |> NO N
+OK test=simple: all words correct
+===== TESTING SCORER ======================
+OK cin.eof() bug not detected
+NO test=20: not all scores correct
+   +----- details -----------
+   |Differences between output and correct output:
+   |4,5c4,5
+   |< 1 OK EOSIN
+   |< 1 OK EOSINS
+   |---
+   |> 2 OK EOSIN
+   |> 3 OK EOSINS
+   |7c7
+   |< 1 OK ETHOS
+   |---
+   |> 2 OK ETHOS
+   |9c9
+   |< 1 OK GEIST
+   |---
+   |> 2 OK GEIST
+   |11c11
+   |< 1 OK GEITS
+   |---
+   |> 2 OK GEITS
+   |26c26
+   |< 1 OK HETHS
+   |---
+   |> 2 OK HETHS
+   |34c34
+   |< 1 OK HOSTIE
+   |---
+   |> 3 OK HOSTIE
+   |58c58
+   |< 1 OK PEINS
+   |---
+   |> 2 OK PEINS
+   |61c61
+   |< 1 OK PHOHS
+   |---
+   |> 2 OK PHOHS
+   |64,65c64,65
+   |< 1 OK PHOTS
+   |< 1 OK PHPHT
+   |---
+   |> 2 OK PHOTS
+   |> 2 OK PHPHT
+   |75c75
+   |< 1 OK PISTE
+   |---
+   |> 2 OK PISTE
+   |78,79c78,79
+   |< 1 OK PITHOS
+   |< 1 OK PITHS
+   |---
+   |> 3 OK PITHOS
+   |> 2 OK PITHS
+   |86,87c86,87
+   |< 1 OK SHOTE
+   |< 1 OK SHOTS
+   |---
+   |> 2 OK SHOTE
+   |> 2 OK SHOTS
+   |91c91
+   |< 1 OK SINHS
+   |---
+   |> 2 OK SINHS
+   |98c98
+   |< 1 OK SITHE
+   |---
+   |> 2 OK SITHE
+   |101,102c101,102
+   |< 1 OK SNIPE
+   |< 1 OK SNIPS
+   |---
+   |> 2 OK SNIPE
+   |> 2 OK SNIPS
+   |104c104
+   |< 1 OK SNITS
+   |---
+   |> 2 OK SNITS
+   |109c109
+   |< 1 OK SOTHS
+   |---
+   |> 2 OK SOTHS
+   |112c112
+   |< 1 OK SPINS
+   |---
+   |> 2 OK SPINS
+   |114c114
+   |< 1 OK SPITE
+   |---
+   |> 2 OK SPITE
+   |116c116
+   |< 1 OK STIPE
+   |---
+   |> 2 OK STIPE
+   |138c138
+   |< 137 words 134 points
+   |---
+   |> 134 words 162 points
+NO test=dupes: not all scores correct
+   +----- details -----------
+   |Differences between output and correct output:
+   |12c12
+   |< 11 words 6 points
+   |---
+   |> 6 words 6 points
+NO test=long: not all scores correct
+   +----- details -----------
+   |Differences between output and correct output:
+   |5,26c5,26
+   |< 1 OK ABCDE
+   |< 1 OK ABCDEF
+   |< 1 OK ABCDEFG
+   |< 1 OK ABCDEFGH
+   |< 1 OK ABCDEFGHI
+   |< 1 OK ABCDEFGHIJ
+   |< 1 OK ABCDEFGHIJK
+   |< 1 OK ABCDEFGHIJKL
+   |< 1 OK ABCDEFGHIJKLM
+   |< 1 OK ABCDEFGHIJKLMN
+   |< 1 OK ABCDEFGHIJKLMNO
+   |< 1 OK ABCDEFGHIJKLMNOP
+   |< 1 OK ABCDEFGHIJKLMNOPR
+   |< 1 OK ABCDEFGHIJKLMNOPRS
+   |< 1 OK ABCDEFGHIJKLMNOPRST
+   |< 1 OK ABCDEFGHIJKLMNOPRSTU
+   |< 1 OK ABCDEFGHIJKLMNOPRSTUV
+   |< 1 OK ABCDEFGHIJKLMNOPRSTUVW
+   |< 1 OK ABCDEFGHIJKLMNOPRSTUVWX
+   |< 1 OK ABCDEFGHIJKLMNOPRSTUVWXY
+   |< 1 OK ABCDEFGHIJKLMNOPRSTUVWXYZ
+   |< 25 words 23 points
+   |---
+   |> 2 OK ABCDE
+   |> 3 OK ABCDEF
+   |> 5 OK ABCDEFG
+   |> 11 OK ABCDEFGH
+   |> 11 OK ABCDEFGHI
+   |> 11 OK ABCDEFGHIJ
+   |> 11 OK ABCDEFGHIJK
+   |> 11 OK ABCDEFGHIJKL
+   |> 11 OK ABCDEFGHIJKLM
+   |> 11 OK ABCDEFGHIJKLMN
+   |> 11 OK ABCDEFGHIJKLMNO
+   |> 11 OK ABCDEFGHIJKLMNOP
+   |> 11 OK ABCDEFGHIJKLMNOPR
+   |> 11 OK ABCDEFGHIJKLMNOPRS
+   |> 11 OK ABCDEFGHIJKLMNOPRST
+   |> 11 OK ABCDEFGHIJKLMNOPRSTU
+   |> 11 OK ABCDEFGHIJKLMNOPRSTUV
+   |> 11 OK ABCDEFGHIJKLMNOPRSTUVW
+   |> 11 OK ABCDEFGHIJKLMNOPRSTUVWX
+   |> 11 OK ABCDEFGHIJKLMNOPRSTUVWXY
+   |> 11 OK ABCDEFGHIJKLMNOPRSTUVWXYZ
+   |> 23 words 210 points
+NO test=notboard: not all scores correct
+   +----- details -----------
+   |Differences between output and correct output:
+   |4c4
+   |< 3 words 0 points
+   |---
+   |> 0 words 0 points
+NO test=notdict: not all scores correct
+   +----- details -----------
+   |Differences between output and correct output:
+   |4c4
+   |< 3 words 0 points
+   |---
+   |> 0 words 0 points
+NO test=nowhere: not all scores correct
+   +----- details -----------
+   |Differences between output and correct output:
+   |4c4
+   |< 3 words 0 points
+   |---
+   |> 0 words 0 points
+NO test=short: not all scores correct
+   +----- details -----------
+   |Differences between output and correct output:
+   |9c9
+   |< 8 words 6 points
+   |---
+   |> 6 words 6 points
+OK test=simple: all scores correct
+===== CHECKING DESIGN =====================
+~~~~~~~~~~ function lengths ~~~~~~~~~~~~~~
+~BogSolver          0                   BogSolver.cpp
+~BogValidator       0                   BogValidator.cpp
+appendChild         1                   Node.cpp
+numWords            1                   BogSolver.cpp
+BogScorer           2                   BogScorer.cpp
+BogSolver           2                   BogSolver.cpp
+BogValidator        2                   BogValidator.cpp
+~Dictionary         2                   Dictionary.cpp
+Dictionary          2                   Dictionary.cpp
+Node                3                   Node.cpp
+main                4                   scorerMain.cpp
+printWords          4                   BogSolver.cpp
+containsQ           5                   BogSolver.cpp
+findChild           5                   Node.cpp
+getWords            5                   BogSolver.cpp
+isPrefix            5                   BogValidator.cpp
+listWords           5                   BogSolver.cpp
+already_checked     6                   BogSolver.cpp
+already_checked     6                   BogValidator.cpp
+main                6                   checkerMain.cpp
+postOrderRemove     6                   Dictionary.cpp
+printNode           6                   Node.cpp
+already_found       7                   BogSolver.cpp
+checkWords          7                   BogValidator.cpp
+main                7                   solverMain.cpp
+getWords            9                   BogSolver.cpp
+numWords            9                   BogSolver.cpp
+word_to_string      9                   BogSolver.cpp
+word_to_string      9                   BogValidator.cpp
+addPreNodes         10                  Node.cpp
+print_single_word   10                  BogSolver.cpp
+printWords          10                  BogSolver.cpp
+readDict            10                  BogSolver.cpp
+readDict            10                  BogValidator.cpp
+solve               10                  BogSolver.cpp
+isPrefix            11                  Dictionary.cpp
+listWords           12                  BogSolver.cpp
+isValid             14                  BogValidator.cpp
+printScore          14                  BogScorer.cpp
+readBoard           14                  BogSolver.cpp
+readBoard           14                  BogValidator.cpp
+solve_recurs        14                  BogValidator.cpp
+isWord              15                  Dictionary.cpp
+solve_recurs        15                  BogSolver.cpp
+insert              17                  Dictionary.cpp
+find_adj            52                  BogSolver.cpp
+find_adj            52                  BogValidator.cpp
+~~~~~~~~~~ commenting ~~~~~~~~~~~~~~
+Chars: 4655 / 23049 = 20 %
+Lines: 130 / 971 = 13 %
+6 block comment lines
+125 line comment lines
+~~~~~~~~~~ format check ~~~~~~~~~~~~~~
+lines: 971
+long:  3
+long-percent: 0
+need-indent: 764
+indented: 578
+indent-percent: 75

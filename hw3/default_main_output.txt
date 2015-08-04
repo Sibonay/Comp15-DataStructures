@@ -1,0 +1,101 @@
+Class size: 0
+Enrolling Green,Alice (major)
+	Enrolled.
+
+Class size: 1
+Enrolling Blue,Misha (non-major)
+	Other waitlist.
+
+Class size: 1
+Enrolling Yellow,John (non-major)
+	Other waitlist.
+
+Class size: 1
+Enrolling Orange,Friya (major)
+	Enrolled.
+
+Class size: 2
+Enrolling Pink,Julia (major)
+	Enrolled.
+
+Class size: 3
+Enrolling Black,Henry (non-major)
+	Other waitlist.
+
+Class size: 3
+Enrolling Cyan,Barnaby (major)
+	Major waitlist.
+
+Class size: 3
+Enrolling Red,Justin (major)
+	Major waitlist.
+
+Class size: 3
+Enrolling Violet,Chester (non-major)
+	Other waitlist.
+
+Class size: 3
+Enrolling Fuchsia,Rebecca (non-major)
+	Other waitlist.
+
+
+Class Size: 3
+Enrolled in Class:
+Green,Alice, Major
+Orange,Friya, Major
+Pink,Julia, Major
+
+On Major Waitlist:
+1. Cyan,Barnaby
+2. Red,Justin
+
+On Other Waitlist:
+1. Blue,Misha
+2. Yellow,John
+3. Black,Henry
+4. Violet,Chester
+5. Fuchsia,Rebecca
+
+Green,Alice status: Enrolled.
+Blue,Misha status: Other waitlist.
+Yellow,John status: Other waitlist.
+Orange,Friya status: Enrolled.
+Pink,Julia status: Enrolled.
+Black,Henry status: Other waitlist.
+Cyan,Barnaby status: Major waitlist.
+Red,Justin status: Major waitlist.
+Violet,Chester status: Other waitlist.
+Fuchsia,Rebecca status: Other waitlist.
+Beige,Barker status: Not enrolled or on a waitlist
+
+Increasing capacity to 7.
+Class Size: 7
+Enrolled in Class:
+Green,Alice, Major
+Orange,Friya, Major
+Pink,Julia, Major
+Cyan,Barnaby, Major
+Red,Justin, Major
+Blue,Misha, Non-Major
+Yellow,John, Non-Major
+
+On Major Waitlist:
+
+On Other Waitlist:
+1. Black,Henry
+2. Violet,Chester
+3. Fuchsia,Rebecca
+
+Green,Alice status: Enrolled.
+Blue,Misha status: Enrolled.
+Yellow,John status: Enrolled.
+Orange,Friya status: Enrolled.
+Pink,Julia status: Enrolled.
+Black,Henry status: Other waitlist.
+Cyan,Barnaby status: Enrolled.
+Red,Justin status: Enrolled.
+Violet,Chester status: Other waitlist.
+Fuchsia,Rebecca status: Other waitlist.
+Beige,Barker status: Not enrolled or on a waitlist
+
+Done!

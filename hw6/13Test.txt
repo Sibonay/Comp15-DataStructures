@@ -1,0 +1,8 @@
+ABC
+DEF
+GHI
+.
+3 3
+ABC
+DEF
+GHI

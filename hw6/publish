@@ -1,0 +1,28 @@
+#!/bin/sh
+#
+# publish bbscorer bbchecker bbsolver to the site
+#
+
+	if test ! -d $HOME/public_html
+	then
+		echo "No website exists for your account."
+		exit 1
+	fi
+
+	if test ! -d $HOME/public_html/bog15
+	then
+		echo "No dir for boggle exists on your site."
+		exit 1
+	fi
+
+	PROGS="bbscorer bbchecker bbsolver"
+	for f in $PROGS
+	do
+		if test -f $f
+		then
+			cp $f $HOME/public_html/bog15/$f	|| exit 1
+			chmod 755 $HOME/public_html/bog15/$f	|| exit 1
+		else
+			echo "note: no $f found here to publish"
+		fi
+	done

@@ -1,0 +1,14 @@
+#include <iostream>
+#include "BogScorer.h"
+using namespace std;
+
+int main()
+{
+	BogScorer	s;
+
+//	s.readAnswers();
+//	s.scoreAnswers();
+//	s.printAnswers();
+	s.printScore();
+	return 0;
+}

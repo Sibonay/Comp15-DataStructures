@@ -1,0 +1,134 @@
+Inserting 4 into the tree.
+Inserting 2 into the tree.
+Inserting 11 into the tree.
+Inserting 15 into the tree.
+Inserting 9 into the tree.
+Inserting 1 into the tree.
+Inserting -6 into the tree.
+Inserting 5 into the tree.
+Inserting 3 into the tree.
+Inserting 15 into the tree.
+Inserting 2 into the tree.
+Inserting 5 into the tree.
+Inserting 13 into the tree.
+Inserting 14 into the tree.
+Original tree (asterisks denote a count of more than 1):
+
+                _______________4______________
+               /                              \
+        _______2*______                  ______11______
+       /              \                /              \
+    ___1               3            ___9            __15*  
+   /                               /               /       
+  -6                               5*              13        
+                                                    \        
+                                                    14        
+
+min: -6
+max: 15
+nodes: 11
+count total: 93
+tree height: 4
+
+Removing 9 from original tree:
+
+                _______________4______________
+               /                              \
+        _______2*______                  ______11______
+       /              \                /              \
+    ___1               3               5*            __15*  
+   /                                               /       
+  -6                                              13        
+                                                    \        
+                                                    14        
+
+min: -6
+max: 15
+nodes: 10
+count total: 84
+tree height: 4
+
+Removing 1 from original tree:
+
+                _______________4______________
+               /                              \
+        _______2*______                  ______11______
+       /              \                /              \
+      -6               3            ___9            __15*  
+                                   /               /       
+                                   5*              13        
+                                                    \        
+                                                    14        
+
+min: -6
+max: 15
+nodes: 10
+count total: 92
+tree height: 4
+
+Removing 11 from original tree:
+
+        _______4______
+       /              \
+    ___2*__          __13__
+   /      \        /      \
+  _1       3      _9      15*
+ /               /       /   
+-6               5*      14    
+
+min: -6
+max: 15
+nodes: 10
+count total: 82
+tree height: 3
+
+Removing 5 from original tree (should still have one 5):
+
+                _______________4______________
+               /                              \
+        _______2*______                  ______11______
+       /              \                /              \
+    ___1               3            ___9            __15*  
+   /                               /               /       
+  -6                               5              13        
+                                                    \        
+                                                    14        
+
+min: -6
+max: 15
+nodes: 11
+count total: 88
+tree height: 4
+
+Tree does not contain the value -10
+Tree does not contain the value -9
+Tree does not contain the value -8
+Tree does not contain the value -7
+Tree contains the value -6
+Tree does not contain the value -5
+Tree does not contain the value -4
+Tree does not contain the value -3
+Tree does not contain the value -2
+Tree does not contain the value -1
+Tree does not contain the value 0
+Tree contains the value 1
+Tree contains the value 2
+Tree contains the value 3
+Tree contains the value 4
+Tree contains the value 5
+Tree does not contain the value 6
+Tree does not contain the value 7
+Tree does not contain the value 8
+Tree contains the value 9
+Tree does not contain the value 10
+Tree contains the value 11
+Tree does not contain the value 12
+Tree contains the value 13
+Tree contains the value 14
+Tree contains the value 15
+Tree does not contain the value 16
+Tree does not contain the value 17
+Tree does not contain the value 18
+Tree does not contain the value 19
+
+Finished!
